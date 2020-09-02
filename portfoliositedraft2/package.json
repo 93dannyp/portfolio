@@ -1,6 +1,9 @@
 {
   "name": "portfoliositedraft2",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.3.0"
+  },
   "private": true,
   "homepage": "http://danielperkinsii.github.io/danielperkinsii.github.io",
   "dependencies": {
