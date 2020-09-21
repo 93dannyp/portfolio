@@ -4,10 +4,11 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Projects from './Projects.js'; 
 import Resume from './Resume.js'; 
 import About from './About.js'; 
-import Freelance from './Freelance'
+import Freelance from './Freelance';
 import './App.css';
 import StaveCoffee from './StaveCoffee';
 import DesignBoard from './DesignBoard';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Link to='/about' className="item">About</Link>
           </div>
         </div>
+        <Footer/>
       </div>
     </BrowserRouter>
   );
