@@ -2,7 +2,7 @@ import React from "react"
 import Thumbnail from './Thumbnail.js'; 
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Freelance from './Freelance'
-import './App.css';
+// import './App.css';
  
 const freelanceImg = require('./pictures/freelance.png')
 const staveCoffeeImg = require('./pictures/stavecoffee.png')

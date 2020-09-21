@@ -5,7 +5,7 @@ import Projects from './Projects.js';
 import Resume from './Resume.js'; 
 import About from './About.js'; 
 import Freelance from './Freelance';
-import './App.css';
+// import './App.css';
 import StaveCoffee from './StaveCoffee';
 import DesignBoard from './DesignBoard';
 import Footer from './Footer';
