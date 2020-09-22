@@ -9,7 +9,7 @@ const staveCoffeeImg = require('./pictures/stavecoffee.png')
 
 function Projects(props) {
   return (
-    <div className='component'>
+    <div className='bg-blue-700'>
       <h1>Projects</h1>
       <div className='project-container'>
         <Thumbnail

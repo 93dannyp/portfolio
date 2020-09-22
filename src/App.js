@@ -6,6 +6,8 @@ import Resume from './Resume.js';
 import About from './About.js'; 
 import Freelance from './Freelance';
 // import './App.css';
+import './assets/main.css'
+
 import StaveCoffee from './StaveCoffee';
 import DesignBoard from './DesignBoard';
 import Footer from './Footer';
@@ -13,7 +15,7 @@ import Footer from './Footer';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="bg-blue-700">
 
         <Route exact path='/' component={Projects} />
         <Route exact path='/resume' component={Resume} />
