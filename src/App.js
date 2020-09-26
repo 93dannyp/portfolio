@@ -15,7 +15,7 @@ import Footer from './Footer';
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-blue-700">
+      <div className="bg-green-700">
 
         <Route exact path='/' component={Projects} />
         <Route exact path='/resume' component={Resume} />
