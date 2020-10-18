@@ -9,7 +9,7 @@ const staveCoffeeImg = require('./pictures/stavecoffee.png')
 
 function Projects(props) {
   return (
-    <div className='flex flex-col items-center content-around bg-red-500 h-screen text-white'>
+    <div className='flex flex-col items-center content-around bg-indigo-800 h-screen text-white'>
       <h1 className="mt-32 mb-20 text-3xl">Projects</h1>
       <div className='flex flex-row justify-evenly content-center w-full py-4 sm:py-12 sm:px-4'>
         <Thumbnail

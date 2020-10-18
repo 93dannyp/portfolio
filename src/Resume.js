@@ -4,10 +4,9 @@ import React from "react"
  
 function Resume(props) {
   return (
-    <div className='flex justify-center items-center h-screen bg-indigo-500'>
+    <div className='flex justify-center items-center h-screen bg-gray-800'>
       <h1 className="text-3xl text-white">Coming soon...</h1>
     </div>
   )
 }
- 
 export default Resume;

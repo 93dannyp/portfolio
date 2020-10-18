@@ -7,7 +7,7 @@ import About from './About.js';
 import Freelance from './Freelance';
 // import './App.css';
 import './assets/main.css'
-import Banner from "./Banner";
+import Nav from "./Nav";
 import StaveCoffee from './StaveCoffee';
 import DesignBoard from './DesignBoard';
 import Footer from './Footer';
@@ -15,8 +15,8 @@ import Footer from './Footer';
 function App() {
   return (
     <BrowserRouter>
-      <div className="w-full bg-blue-200 text-gray-700">
-        <Banner />
+      <div className="w-full text-gray-700">
+        <Nav />
         
         
         <Route exact path='/' component={Projects} />
