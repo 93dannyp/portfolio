@@ -4,12 +4,12 @@ import {Link} from 'react-router-dom';
  
 function Thumbnail(props) {
   return (
-    <div className='max-w-sm h-auto px-1 shadow:lg'>
+    <div className='h-full rounded-lg relative hover:translate-y-6'>
       <Link to={props.link}>
-        <div className=''>
-          <img src={props.image} alt="Project Image"/>
-        </div>
-        <div className='overlay'>
+        
+          <img className="h-64 w-auto rounded-lg shadow-lg" src={props.image} alt="Project Image"/>
+        
+        <div className='w-full rounded-b-lg bg-opacity-50 bg-gray-700 -mt-16 pt-1 pb-3 pl-4 absolute'>
             <div className="project-title">{props.title}</div>
             <div className="project-category">{props.category}</div>
         </div>
