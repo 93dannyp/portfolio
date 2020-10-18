@@ -6,7 +6,7 @@ const designBoardImg = require('./pictures/designboard.jpeg')
  
 function DesignBoard(props) {
   return (
-    <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+    <div className='max-w-lg rounded overflow-hidden shadow-lg '>
       <div className='project-thumbnail'>
         <h1>Design Board</h1>
         <a href='https://github.com/93dannyp/93dannyp.github.io'>Visit the Repo</a><br/>

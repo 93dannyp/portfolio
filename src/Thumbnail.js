@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom';
  
 function Thumbnail(props) {
   return (
-    <div className='project-thumbnail'>
+    <div className='max-w-sm h-auto px-1 shadow:lg'>
       <Link to={props.link}>
-        <div className='project-image'>
+        <div className=''>
           <img src={props.image} alt="Project Image"/>
         </div>
         <div className='overlay'>

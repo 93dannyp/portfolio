@@ -9,9 +9,9 @@ const staveCoffeeImg = require('./pictures/stavecoffee.png')
 
 function Projects(props) {
   return (
-    <div className='bg-blue-700'>
+    <div className='bg-red-500 h-screen'>
       <h1>Projects</h1>
-      <div className='project-container'>
+      <div className='flex flex-row justify-between py-4 sm:py-12 sm:px-4'>
         <Thumbnail
             link="/freelance"
             image={freelanceImg}

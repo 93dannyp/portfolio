@@ -5,7 +5,7 @@ const staveCoffeeImg = require('./pictures/stavecoffee.png')
  
 function StaveCoffee(props) {
   return (
-    <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+    <div className='max-w-sm rounded shadow-lg'>
       <h1>Stave Coffee Blog</h1>
       <a href='https://github.com/93dannyp/stavecoffee'>Visit The Repo</a><br/>
       <a href='https://stavecoffee.herokuapp.com/'>Visit The Website</a>

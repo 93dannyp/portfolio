@@ -5,7 +5,7 @@ const freelanceImg = require('./pictures/freelance.png')
  
 function Freelance(props) {
   return (
-    <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+    <div className=' rounded overflow-hidden shadow-lg'>
       <h1>Freelance CRM</h1>
       <a href='https://github.com/93dannyp/freelance-frontend'>Front End Repo</a><br/>
       <a href='https://github.com/93dannyp/freelance-backend'>Back End Repo</a><br/>
