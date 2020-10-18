@@ -1,11 +1,11 @@
 import React from "react"
-import './App.css';
+// import './App.css';
 const freelanceImg = require('./pictures/freelance.png')
 
  
 function Freelance(props) {
   return (
-    <div className='component container'>
+    <div className='max-w-sm rounded overflow-hidden shadow-lg'>
       <h1>Freelance CRM</h1>
       <a href='https://github.com/93dannyp/freelance-frontend'>Front End Repo</a><br/>
       <a href='https://github.com/93dannyp/freelance-backend'>Back End Repo</a><br/>

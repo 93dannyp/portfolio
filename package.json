@@ -19,12 +19,14 @@
     "serve": "^11.3.2"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "dev": "npm run watch:css && react-scripts start",
     "start": "serve -s build",
-    "build": "react-scripts build",
+    "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "build:css": "tailwind build src/assets/tailwind.css -o src/assets/main.css",
+    "watch:css": "tailwind build src/assets/tailwind.css -o src/assets/main.css"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.10"
   }
 }

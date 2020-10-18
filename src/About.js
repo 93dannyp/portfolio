@@ -1,5 +1,5 @@
 import React from "react"
-import './App.css';
+// import './App.css';
 
 const danielWithBridgeImg = require('./pictures/danielwithbridge.jpg')
 

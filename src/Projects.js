@@ -2,14 +2,14 @@ import React from "react"
 import Thumbnail from './Thumbnail.js'; 
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Freelance from './Freelance'
-import './App.css';
+// import './App.css';
  
 const freelanceImg = require('./pictures/freelance.png')
 const staveCoffeeImg = require('./pictures/stavecoffee.png')
 
 function Projects(props) {
   return (
-    <div className='component'>
+    <div className='bg-blue-700'>
       <h1>Projects</h1>
       <div className='project-container'>
         <Thumbnail
