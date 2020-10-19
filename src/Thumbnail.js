@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
  
 function Thumbnail(props) {
   return (
-    <div className='h-full rounded-lg relative hover:translate-y-6'>
+    <div className='h-full rounded-lg relative'>
       <Link to={props.link}>
         
           <img className="h-64 w-auto rounded-lg shadow-lg" src={props.image} alt="Project Image"/>
