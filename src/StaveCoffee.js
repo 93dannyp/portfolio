@@ -10,8 +10,8 @@ function StaveCoffee(props) {
       <p className="mb-12 mx-auto">Stave Coffee Blog is a business website with an integrated blog feature</p>
       <div className="flex flex-row justify-evenly mb-10">
       <div className="w-24"></div>
-      <a className="hover:bg-indigo-600 hover:text-white shadow-lg rounded-lg py-6 px-12 ml-16" href='https://github.com/93dannyp/stavecoffee'>Visit The Repo</a><br/>
-      <a className="hover:bg-indigo-600 hover:text-white shadow-lg rounded-lg py-6 px-12" href='https://stavecoffee.herokuapp.com/'>Visit The Website</a>
+      <a className="hover:bg-indigo-600 hover:text-white shadow-lg rounded-lg py-6 px-12 ml-16 animate-pulse transition ease-in-out duration-700" href='https://github.com/93dannyp/stavecoffee'>Visit The Repo</a><br/>
+      <a className="hover:bg-indigo-600 hover:text-white shadow-lg rounded-lg py-6 px-12 animate-pulse transition ease-in-out duration-700" href='https://stavecoffee.herokuapp.com/'>Visit The Website</a>
       <div className="w-24"></div>
       </div>
       <img className="w-2/3 mx-auto rounded-lg" src={staveCoffeeImg}/>

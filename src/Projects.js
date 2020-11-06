@@ -13,7 +13,7 @@ function Projects(props) {
   return (
     <div className='flex flex-col items-center content-around bg-indigo-800 text-white'>
       <h1 className="mt-20 mb-4 text-3xl">Projects</h1>
-      <div className='flex flex-row flex-wrap justify-center w-full py-4 sm:py-8 sm:px-4 mb-32'>
+      <div className='flex flex-row flex-wrap justify-center w-full py-4 sm:py-8 sm:px-4 mb-32 mx-auto'>
         <Thumbnail
             link="/freelance"
             image={freelanceImg}

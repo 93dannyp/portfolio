@@ -6,7 +6,7 @@ const mediumURL = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fme
 export default function MediumContainer() {
     const [title, setTitle] = useState(null)
     const [link, setLink] = useState(null)
-    const [posts, setPosts] = useState([])
+    const [posts, setPosts] = useState([null])
 
 
     useEffect(() => {
@@ -18,6 +18,7 @@ export default function MediumContainer() {
             const res = data.items
             const posts = res.filter(item => item.categories.length > 0) // comments do not have categories and posts do
             setPosts(posts)
+            console.log(posts)
         })
         .catch( err => console.log(err))
 
@@ -28,7 +29,14 @@ export default function MediumContainer() {
         <div>
             <h1>Coming Soon...</h1>
             <a className="text-blue-400" href={link}>{title}</a>
-            {posts.title}
+            
+            {posts.map((index, post) => {
+                return (<div key={index}>
+                {post.title}
+                </div>)
+            })}
+            
+            
             {/* {posts.length > 0 ? 
             {posts}
             posts.map((post, index) => {

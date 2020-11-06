@@ -10,9 +10,9 @@ function Freelance(props) {
       <p className="mb-12 mx-auto">Freelance CRM is a Web Application inspired by the need for a simple CRM for Freelancers.</p>
 
       <div className="flex flex-row justify-around mb-10">
-      <a className="hover:bg-indigo-600 hover:text-white shadow-lg rounded-lg py-6 px-12" href='https://github.com/93dannyp/freelance-frontend'>Front End Repo</a>
-      <a className="hover:bg-indigo-600 hover:text-white shadow-lg rounded-lg py-6 px-12" href='https://github.com/93dannyp/freelance-frontend' href='https://github.com/93dannyp/freelance-backend'>Back End Repo</a>
-      <a className="hover:bg-indigo-600 hover:text-white shadow-lg rounded-lg py-6 px-12" href='https://github.com/93dannyp/freelance-frontend' href='https://freelancecrm.herokuapp.com/'>Visit The Website</a>
+      <a className="hover:bg-indigo-600 hover:text-white shadow-lg rounded-lg py-6 px-12 animate-pulse transition ease-in-out duration-700" href='https://github.com/93dannyp/freelance-frontend'>Front End Repo</a>
+      <a className="hover:bg-indigo-600 hover:text-white shadow-lg rounded-lg py-6 px-12 animate-pulse transition ease-in-out duration-700" href='https://github.com/93dannyp/freelance-frontend' href='https://github.com/93dannyp/freelance-backend'>Back End Repo</a>
+      <a className="hover:bg-indigo-600 hover:text-white shadow-lg rounded-lg py-6 px-12 animate-pulse transition ease-in-out duration-700" href='https://github.com/93dannyp/freelance-frontend' href='https://freelancecrm.herokuapp.com/'>Visit The Website</a>
       </div>
       <img className="w-2/3 mx-auto rounded-lg" src={freelanceImg}/>
       <div className="mx-12 my-32">

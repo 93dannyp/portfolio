@@ -10,7 +10,7 @@ export default function TwitterContainer() {
                     sourceType="profile"
                     screenName="danielperkinsii"
                     options={{
-                        tweetLimit: "10",
+                        tweetLimit: "6",
                         width: "100%",
                         height: "100%"
                     }}
