@@ -28,7 +28,7 @@ export default function MediumContainer() {
     return (
         <div>
             <h1>Coming Soon...</h1>
-            <a className="text-blue-400" href={link}>{title}</a>
+            <a className="text-blue-400 underline" href={link}>{title}</a>
             
             {posts.map((index, post) => {
                 return (<div key={index}>
