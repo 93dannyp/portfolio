@@ -8,7 +8,7 @@ import Freelance from './Freelance';
 import './assets/main.css'
 import Nav from "./Nav";
 import StaveCoffee from './StaveCoffee';
-import DesignBoard from './DesignBoard';
+import AllTheFoods from './AllTheFoods';
 import Footer from './Footer';
 import HistoricCinemas from './HistoricCinemas';
 
@@ -22,7 +22,7 @@ function App() {
         <Route exact path='/blog' component={Blog} />
         <Route exact path='/freelance' component={Freelance} />
         <Route exact path='/stave-coffee' component={StaveCoffee} />
-        <Route exact path='/design-board' component={DesignBoard} />
+        <Route exact path='/all-the-foods' component={AllTheFoods} />
         <Route exact path='/historic-cinemas' component={HistoricCinemas} />
         <Footer/>
       </div>

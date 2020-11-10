@@ -6,7 +6,7 @@ import Freelance from './Freelance'
  
 const freelanceImg = require('./pictures/freelance.png')
 const staveCoffeeImg = require('./pictures/stavecoffee.png')
-const designboardThumb = require('./pictures/designBoardthumb.jpeg')
+const allTheFoodsThumb = require('./pictures/allTheFoodsThumb.jpeg')
 const cinemaThumb = require('./pictures/cinemaThumb.jpeg')
 
 function Projects(props) {
@@ -20,16 +20,16 @@ function Projects(props) {
             title="Freelance CRM"
             category="Web App"
         />
+        <Thumbnail
+            link="/all-the-foods"
+            image={allTheFoodsThumb}
+            title="All the Foods"
+            category="Website"
+        />
         <Thumbnail 
             link="/stave-coffee"
             image={staveCoffeeImg}
             title="Stave Coffee Blog"
-            category="Website"
-        />
-        <Thumbnail
-            link="/design-board"
-            image={designboardThumb}
-            title="Design Board"
             category="Website"
         />
         <Thumbnail 
