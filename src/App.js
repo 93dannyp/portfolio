@@ -6,6 +6,7 @@ import About from './About.js';
 import Blog from './Blog.js'; 
 import Freelance from './Freelance';
 import './assets/main.css'
+import './index.css'
 import Nav from "./Nav";
 import StaveCoffee from './StaveCoffee';
 import AllTheFoods from './AllTheFoods';
